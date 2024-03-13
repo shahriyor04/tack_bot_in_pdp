@@ -242,3 +242,9 @@ async def process_education_direction(message: types.Message, state: FSMContext)
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+
+# import qrcode
+# image = qrcode.make('https://t.me/rekord_mir_bot')
+# type(image)
+# image.save("order_info_o'zim.png")
+
